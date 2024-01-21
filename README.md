@@ -17,7 +17,7 @@
 ## WorkFlow
 
 1. Update config.yaml
-2. Update Param.yaml
+2. Update Param.yaml & schema.yaml
 3. Update Entity
 4. Update Configuration Manager in src config
 5. Update Components
