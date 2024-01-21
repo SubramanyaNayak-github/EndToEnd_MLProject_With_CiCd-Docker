@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/hitam/Downloads/EndToEnd_MLProject_With_CiCd-Docker/mlruns/0/44c225e2697b45f4bae29b87989001e4/artifacts
+end_time: 1705850802532
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 44c225e2697b45f4bae29b87989001e4
+run_name: shivering-bass-754
+run_uuid: 44c225e2697b45f4bae29b87989001e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705850790351
+status: 3
+tags: []
+user_id: hitam
