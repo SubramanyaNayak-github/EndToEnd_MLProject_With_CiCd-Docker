@@ -1,1 +1,18 @@
-a : b
+COLUMNS:
+  CRIM: float64
+  ZN: float64
+  INDUS: float64
+  CHAS: float64
+  NOX: float64
+  RM: float64
+  AGE: float64
+  DIS: float64
+  RAD: int64
+  TAX: int64
+  PTRATIO: float64
+  B: float64
+  LSTAT: float64
+  Price: float64
+
+TARGET_COLUMN:
+  name: Price
