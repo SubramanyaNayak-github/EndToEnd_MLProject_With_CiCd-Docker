@@ -1,1 +1,2 @@
-a : b
+RidgeRegression:
+  alpha: 1.0

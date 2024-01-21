@@ -2,6 +2,8 @@ from BostonHousePrediction import logger
 from BostonHousePrediction.pipeline.stage01_data_ingestion import DataIngestionTrainingPipeline
 from BostonHousePrediction.pipeline.stage02_data_validation import DataValidationTrainingPipeline
 from BostonHousePrediction.pipeline.stage03_data_transformation import DataTransformationTrainingPipeline
+from BostonHousePrediction.pipeline.stage04_model_trainer import ModelTrainerTrainingPipeline
+
 
 # ------------------------------------------ Data_Ingestion ------------------------------------ 
 
@@ -42,3 +44,20 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
+
+
+
+# ------------------------------------------ Model_Trainer ------------------------------------ 
+
+
+STAGE_NAME = "Model Trainer stage"
+try:
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
+   data_ingestion = ModelTrainerTrainingPipeline()
+   data_ingestion.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+        logger.exception(e)
+        raise e
+
+

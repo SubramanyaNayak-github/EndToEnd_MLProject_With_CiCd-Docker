@@ -2,8 +2,9 @@ from BostonHousePrediction.constants  import *
 from BostonHousePrediction.utils.common import read_yaml, create_directories
 from BostonHousePrediction.entity.config_entity import (DataIngestionConfig,
                                                         DataValidationConfig,
-                                                        DataTransformationConfig
-                                            ,
+                                                        DataTransformationConfig,
+                                                        ModelTrainerConfig,
+                                            
                                 )
 
 
@@ -76,3 +77,29 @@ class ConfigurationManager:
         )
 
         return data_transformation_config
+    
+
+# ------------------------------------------ Model_Trainer ------------------------------------ 
+
+
+
+
+    def get_model_trainer_config(self) -> ModelTrainerConfig:
+        config = self.config.model_trainer
+        params = self.params.RidgeRegression
+        schema =  self.schema.TARGET_COLUMN
+
+        create_directories([config.root_dir])
+
+        model_trainer_config = ModelTrainerConfig(
+            root_dir=config.root_dir,
+            train_data_path = config.train_data_path,
+            test_data_path = config.test_data_path,
+            transformer_name = config.transformer_name,
+            model_name = config.model_name,
+            alpha = params.alpha,
+            target_column = schema.name
+            
+        )
+
+        return model_trainer_config
