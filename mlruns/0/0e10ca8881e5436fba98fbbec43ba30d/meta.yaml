@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/hitam/Downloads/EndToEnd_MLProject_With_CiCd-Docker/mlruns/0/0e10ca8881e5436fba98fbbec43ba30d/artifacts
+end_time: 1705916583581
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0e10ca8881e5436fba98fbbec43ba30d
+run_name: dapper-goat-152
+run_uuid: 0e10ca8881e5436fba98fbbec43ba30d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705916567735
+status: 3
+tags: []
+user_id: hitam

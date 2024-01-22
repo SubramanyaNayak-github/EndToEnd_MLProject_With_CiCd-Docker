@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/hitam/Downloads/EndToEnd_MLProject_With_CiCd-Docker/mlruns/0/1760abbd73f84358a26391f3df72321b/artifacts
+end_time: 1705916501110
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1760abbd73f84358a26391f3df72321b
+run_name: placid-cow-171
+run_uuid: 1760abbd73f84358a26391f3df72321b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705916481217
+status: 3
+tags: []
+user_id: hitam
