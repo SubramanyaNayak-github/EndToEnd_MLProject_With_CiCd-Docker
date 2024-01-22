@@ -1,6 +1,7 @@
 gunicorn
 pandas 
 mlflow==2.2.2
+gunicorn
 notebook
 numpy
 scikit-learn
